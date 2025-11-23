@@ -3,7 +3,7 @@ import http from "http";
 
 // Create HTTP server
 const httpServer = http.createServer((request, response) => {
-  console.log(new Date() + " Received request for " + request.url);
+  console.log(new Date() + " Received request for shfhasfh " + request.url);
   response.writeHead(404);
   response.end();
 });

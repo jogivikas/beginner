@@ -29,7 +29,10 @@ wsServer.on("request", (request) => {
   if (!originIsAllowed(request.origin)) {
     request.reject();
     console.log(
-      new Date() + " Connection from origin " + request.origin + " rejected."
+      new Date() +
+        " Connection from origin djkghsdjhg" +
+        request.origin +
+        " rejected."
     );
     return;
   }
